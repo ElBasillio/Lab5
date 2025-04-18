@@ -2,7 +2,13 @@ import unittest
 import os
 import csv
 from parser import safe_float, ShapeFactory, read_shapes_from_csv
-from shapes import Circle, Rectangle, Triangle, Cube, Sphere, Cylinder
+from shapes.circle import Circle
+from shapes.rectangle import Rectangle
+from shapes.triangle import Triangle
+from shapes.cube import Cube
+from shapes.sphere import Sphere
+from shapes.cylinder import Cylinder
+
 
 class TestSafeFloat(unittest.TestCase):
     def test_valid_float(self):

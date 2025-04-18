@@ -1,6 +1,11 @@
 import unittest
-from shapes import Circle, Rectangle, Triangle, Cube, Sphere, Cylinder
 import math
+from shapes.circle import Circle
+from shapes.rectangle import Rectangle
+from shapes.triangle import Triangle
+from shapes.cube import Cube
+from shapes.sphere import Sphere
+from shapes.cylinder import Cylinder
 
 class TestShapes(unittest.TestCase):
     def test_circle(self):

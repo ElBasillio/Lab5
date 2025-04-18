@@ -1,4 +1,9 @@
-from shapes import Circle, Cube, Cylinder, Rectangle, Sphere, Triangle
+from shapes.circle import Circle
+from shapes.rectangle import Rectangle
+from shapes.triangle import Triangle
+from shapes.cube import Cube
+from shapes.sphere import Sphere
+from shapes.cylinder import Cylinder
 import csv
 
 
